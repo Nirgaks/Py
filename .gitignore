@@ -1,3 +1,7 @@
+# Ignore VS Code folder (keep settings.json only if exists)
+.vscode/*
+!.vscode/settings.json
+
 # Python
 __pycache__/
 *.py[cod]
@@ -11,8 +15,7 @@ node_modules/
 dist/
 build/
 
-# IDE / OS
-.vscode/
+# OS/IDE
 .idea/
 .DS_Store
 
